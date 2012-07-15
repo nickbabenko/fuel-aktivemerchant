@@ -49,11 +49,11 @@ Autoloader::add_classes(array(
     'Merchant_Billing_FormHelper' => __DIR__ . '/classes/merchant/billing/integrations/FormHelper.php',
     'Merchant_Billing_Helper' => __DIR__ . '/classes/merchant/billing/integrations/Helper.php',
 
-    'Merchant_Connection' => __DIR__ . '/classes/common/Connection.php',
-    'Merchant_Country' => __DIR__ . '/classes/Country.php',
-    'Merchant_Error' => __DIR__ . '/classes/common/Error.php',
-    'Inflect' => __DIR__ . '/classes/common/Inflect.php',
-    'Merchant_Logger' => __DIR__ . '/classes/common/Logger.php',
+    'Merchant_Connection' => __DIR__ . '/classes/merchant/common/Connection.php',
+    'Merchant_Country' => __DIR__ . '/classes/merchant/common/Country.php',
+    'Merchant_Error' => __DIR__ . '/classes/merchant/common/Error.php',
+    'Inflect' => __DIR__ . '/classes/merchant/common/Inflect.php',
+    'Merchant_Logger' => __DIR__ . '/classes/merchant/common/Logger.php',
     
     'GatewaySupport' => __DIR__ . '/classes/support/GatewaySupport.php',
 ));
